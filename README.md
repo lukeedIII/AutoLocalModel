@@ -77,5 +77,3 @@ AI_GOAL: Set this to the task you want the AI to achieve (e.g., "Help the human 
 Finally, you can run the code. Execute the script using the appropriate command in your command prompt or terminal.
 
 Note: The specific command to run the code depends on the file name and your system configuration. You might need to use python main.py or python3 main.py depending on your Python installation and environment.
-
-Make sure you have fulfilled these requirements and completed the necessary setup steps before running the code.
