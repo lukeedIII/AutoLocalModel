@@ -22,7 +22,7 @@ Follow these steps, and you'll be chatting with your new AI buddy in no time:
 1. Clone this repository to your local machine. It's like teleporting code from our computer to yours!
 
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git
+    git clone https://github.com/lukeedIII/AutoLocalModel.git
     ```
 
 2. Navigate to the project directory. It's like walking into a room, but the room is full of code.
