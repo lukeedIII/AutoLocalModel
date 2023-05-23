@@ -47,3 +47,35 @@ You can run the project with the following command:
 
 ```bash
 python main.py
+
+
+To run the code successfully, you'll need to follow these steps:
+
+Install make using Chocolatey (a package manager for Windows). Run the following command in your command prompt or terminal:
+
+bash
+Copy code
+choco install make
+This will install make on your system.
+
+Install Visual Studio with C++ support. You can download it from the official website. Make sure to select the C++ workload during the installation process.
+
+Install the required Python packages by running the following command in your command prompt or terminal:
+
+bash
+Copy code
+pip install -r requirements.txt
+This will install all the necessary Python packages specified in the requirements.txt file.
+
+Place the alpaca13b model in the /models/alpaca13b folder and rename it to model.bin. This is where the code expects to find the LlamaCpp model.
+
+Copy the .env.example file to .env and edit it. In the .env file, you need to update the following variables:
+
+GOOGLE_CSE_ID and GOOGLE_API_KEY: Replace these values with your own Google Search API information.
+LLAMACPP_MODEL: Change this to the name of the model folder in the models directory (e.g., alpaca13b).
+AI_GOAL: Set this to the task you want the AI to achieve (e.g., "Help the human overcome a mental health struggle.").
+Finally, you can run the code. Execute the script using the appropriate command in your command prompt or terminal.
+
+Note: The specific command to run the code depends on the file name and your system configuration. You might need to use python main.py or python3 main.py depending on your Python installation and environment.
+
+Make sure you have fulfilled these requirements and completed the necessary setup steps before running the code.
