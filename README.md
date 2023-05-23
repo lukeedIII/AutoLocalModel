@@ -49,7 +49,7 @@ You can run the project with the following command:
 python main.py
 
 
-To run the code successfully, you'll need to follow these steps:
+## To run the code successfully, you'll need to follow these steps:
 
 Install make using Chocolatey (a package manager for Windows). Run the following command in your command prompt or terminal:
 
