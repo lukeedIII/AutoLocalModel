@@ -1,0 +1,5 @@
+langchain
+wikipedia
+requests
+llama-cpp-python
+google-api-python-client
